@@ -16,4 +16,5 @@ spring:
         file-extension: yaml
         prefix: ${spring.nacos.config.prefix}
         group: ${spring.nacos.config.group}
+        namespace: ${spring.nacos.config.namespace}
         enabled: true

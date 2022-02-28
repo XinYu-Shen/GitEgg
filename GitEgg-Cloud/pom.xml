@@ -200,10 +200,11 @@
             <id>dev</id>
             <properties>
                 <spring.profiles.active>dev</spring.profiles.active>
-                <nacos.addr>127.0.0.1:8848</nacos.addr>
+                <nacos.addr>http://192.168.30.111:8848</nacos.addr>
                 <nacos.config.prefix>gitegg-cloud-config</nacos.config.prefix>
                 <nacos.config.group>GITEGG_CLOUD</nacos.config.group>
                 <docker.harbor.addr>172.16.20.175</docker.harbor.addr>
+                <nacos.config.namespace>gitegg</nacos.config.namespace>
                 <docker.harbor.project>gitegg</docker.harbor.project>
                 <docker.harbor.username>robot$gitegg</docker.harbor.username>
                 <docker.harbor.password>Jqazyv7vvZiL6TXuNcv7TrZeRdL8U9n3</docker.harbor.password>

@@ -5,3 +5,4 @@ spring:
     config:
       prefix: @nacos.config.prefix@
       group: @nacos.config.group@
+      namespace: @nacos.config.namespace@
